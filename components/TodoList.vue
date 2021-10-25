@@ -3,7 +3,6 @@ import axios  from 'axios'
 const props = defineProps({
 	todos: Array | null
 })
-console.log(props.todos);
 
 const itsDone = async (event, todo) => {
   if(todo.data.status){
